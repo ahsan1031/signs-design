@@ -56081,3 +56081,7 @@ li.sidebar-item img {
         line-height: 24px;
     }
 }
+
+.progress {
+    background-color: #ededed;
+}
