@@ -25831,8 +25831,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-    background-color: #5d87ff;
-    border-color: #5d87ff
+    background-color: #fdb915;
+    border-color: #fdb915
 }
 
 .form-check-input:checked[type=checkbox] {
@@ -25867,7 +25867,8 @@ textarea.form-control-lg {
 
 .form-switch .form-check-input {
     --bs-form-switch-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
-    width: 2em;
+    width: 3.5em;
+    height: 1.8em;
     margin-left: -2.5em;
     background-image: var(--bs-form-switch-bg);
     background-position: left center;
@@ -26626,15 +26627,15 @@ fieldset:disabled .btn {
 
 .btn-danger {
     --bs-btn-color: #fff;
-    --bs-btn-bg: #FA896B;
-    --bs-btn-border-color: #FA896B;
+    --bs-btn-bg: #eb3939;
+    --bs-btn-border-color: #eb3939;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #d5745b;
-    --bs-btn-hover-border-color: #c86e56;
+    --bs-btn-hover-bg: #161616;
+    --bs-btn-hover-border-color: #161616;
     --bs-btn-focus-shadow-rgb: 251, 155, 129;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #c86e56;
-    --bs-btn-active-border-color: #bc6750;
+    --bs-btn-active-bg: #eb3939;
+    --bs-btn-active-border-color: #eb3939;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #FA896B;
@@ -47255,7 +47256,7 @@ html[dir=rtl] .welcome-bg-img {
 }
 
 .sidebar-nav ul .sidebar-item .sidebar-link.active:hover.has-arrow::after {
-    border-color: #fff
+    border-color: #2a3547
 }
 
 .sidebar-nav ul .sidebar-item .link-disabled {
@@ -47352,7 +47353,7 @@ html[dir=rtl] .welcome-bg-img {
     -ms-transform-origin: top;
     -o-transform-origin: top;
     transform-origin: top;
-    top: 22px;
+    top: 30px;
     right: 15px;
     -webkit-transition: all .3s ease-out;
     -o-transition: all .3s ease-out;
@@ -56084,4 +56085,112 @@ li.sidebar-item img {
 
 .progress {
     background-color: #ededed;
+}
+
+.breadcrumb a {
+    color: #838383;
+    font-size: 14px;
+    margin: 0px 9px;
+}
+
+.collapse.in {
+    display: block;
+    margin-left: 60px;
+}
+
+span.transcation-link {
+    margin-left: 30px;
+}
+
+.transcation_sub li {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.btn_location {
+    height: 100%;
+    background-color: #161616;
+    padding: 0px 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.location_field input {
+    border: 2px solid #e3e3e4;
+    height: 47px;
+}
+.location-edit {
+    border: none;
+    color: #161616;
+}
+.location-edit:hover {
+    background-color: #fdb915;
+    color: #161616;
+}
+.account-page {
+    /* align-items: baseline; */
+    justify-content: start;
+}
+.account-page {
+    /* align-items: baseline; */
+    justify-content: start;
+    margin-left: 0px;
+    padding-bottom: 35px;
+}
+.location_field span {
+    display: block;
+    color: #8f8f8f;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+.location_field label {
+    color: #000;
+    font-weight: 600;
+    padding-bottom: 6px;
+}
+.noti_bg {
+    background-color: #fff1d0;
+}
+
+.noti_bg hr {
+    margin-bottom: 28px;
+   
+    border: 1px solid #c5c4c4;
+    background-color: #ccc;
+}
+.noti_bg h5 {
+    margin-bottom: 40px;
+}
+.noti_bg h6 {
+    font-weight: 600;
+    color: #161616;
+}
+.delete-account {
+    margin-left: 29px;
+}
+.bg-conversation {
+    background-color: #161616;
+    border-radius: 10px 10px 0px 0px;
+}
+.bg-conversation h6 {
+    color: #fff;
+    font-size: 22px;
+    padding: 20px 32px;
+    font-weight: 400;
+    margin: 0;
+}
+.bg_client {
+    background-color: #fdb915;
+    border-radius: 0px 0px 10px 10px;
+}
+.bg_client h6 {
+    color: #161616;
+    padding: 22px 35px;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.chat-application {
+    margin-top: 130px;
 }
