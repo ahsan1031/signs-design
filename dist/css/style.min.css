@@ -22923,7 +22923,7 @@
     --bs-light-info-rgb: 235, 243, 254;
     --bs-light-success-rgb: 230, 255, 250;
     --bs-light-warning-rgb: 254, 245, 229;
-    --bs-light-danger-rgb: 251, 242, 239;
+    --bs-light-danger-rgb: 190, 52, 48;
     --bs-light-indigo-rgb: 235, 243, 254;
     --bs-dark-light-rgb: 42, 53, 71;
     --bs-light-gray-rgb: 246, 249, 252;
@@ -23109,7 +23109,7 @@ h6 {
     margin-bottom: .5rem;
     font-weight: 500;
     line-height: 1.2;
-    color: var(--bs-heading-color)
+    /* color: var(--bs-heading-color) */
 }
 
 .h1,
@@ -56019,6 +56019,9 @@ header.app-header {
     border: 2px solid #e8e8e8;
     border-radius: 10px;
     padding-bottom: 38px !important;
+    width: 85%;
+    transition: 0.2s ease all;
+    color: #161616;
 }
 .dashboard_card h3 {
     font-size: 34px;
@@ -56322,4 +56325,69 @@ hr.design-border {
 .single-sizes a {
     color: #efae10;
     font-weight: 600;
+}
+.invoice-details p {
+    margin: 5px 0px;
+}
+.payment-btn {
+    background-color: #fdb915;
+    color: #161616;
+    border: 2px solid #e4a713;
+}
+.print-page {
+    background-color: #161616;
+}
+
+.dashboard_card:hover {
+    /* scale: 1.1; */
+    width: 100%;
+    background-color: #161616;
+    color: #fff !important;
+}
+
+.dashboard_card:before {
+    content: url(https://clevelandsigncompany.com/blinksigns_8_6_23/wordpress/wp-content/uploads/2023/06/Vector.png);
+    left: -10%;
+    position: absolute;
+    top: 35%;
+    transition: 0.3s ease all;
+}
+.dashboard_card:hover:before {
+    left: 80%;
+}
+.dashboard-arrow {
+    overflow: hidden;
+}
+
+.account_card {
+    border: 2px solid #e8e8e8;
+    border-radius: 10px;
+    padding-bottom: 38px !important;
+    width: 85%;
+    transition: 0.2s ease all;
+    color: #161616;
+}
+.status-title {
+    margin-left: 26px;
+    color: #161616;
+}
+.status_footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-status {
+    /* display: inherit; */
+    /* display: inline-block !important; */
+    width: 89%;
+    font-size: 16px;
+    padding: 9px 0px;
+}
+
+.status-box li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.status-box span {
+    padding: 2px 14px;
 }
