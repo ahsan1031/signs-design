@@ -22913,7 +22913,7 @@
     --bs-success-rgb: 19, 222, 185;
     --bs-info-rgb: 83, 155, 255;
     --bs-warning-rgb: 255, 174, 31;
-    --bs-danger-rgb: 250, 137, 107;
+    --bs-danger-rgb: 235, 57, 57;
     --bs-light-rgb: 246, 249, 252;
     --bs-dark-rgb: 42, 53, 71;
     --bs-muted-rgb: 90, 106, 133;
@@ -56200,7 +56200,7 @@ span.transcation-link {
 }
 
 .conversation_page {
-    margin-top: 120px;
+    margin-top: 75px;
 }
 .conversation_tabs {
     margin-top: 30px;
@@ -56252,7 +56252,7 @@ div#v-pills-tabContent {
 }
 .design_box li {
     border-bottom: 2px solid #ededed;
-    padding: 8px 25px;
+    padding: 5px 25px;
 }
 .design_box li:last-child {
     border-bottom: none;
@@ -56390,4 +56390,30 @@ hr.design-border {
 }
 .status-box span {
     padding: 2px 14px;
+}
+
+.calender-table span {
+    margin-left: 10px;
+}
+.calender-table td {
+    color: #000;
+}
+.design_box.status-box p {
+    font-size: 15px;
+    color: #161616;
+    padding: 0px 25px;
+}
+
+.status_order {
+    padding: 1px 14px;
+}
+.order-invoice th {
+    background-color: #fdb915;
+    color: #161616;
+}
+.invoiceing-box h4 {
+    color: #161616;
+}
+.order-invoice td {
+    color: #161616;
 }
