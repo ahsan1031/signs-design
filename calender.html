@@ -332,8 +332,84 @@
             <div class="card-body">
           
               <div class="row mt-3">
-         
-                <div class="col-md-12">
+                <div class="col-md-4">
+
+                  <div class="table-responsive calender-table">
+                    <table class="table border">
+                      <thead class="bg-primary text-white">
+                        <!-- start row -->
+                        <tr>
+                          <th>Project Stage</th>
+                          <th>Duration</th>
+                          <th>Status</th>
+                        </tr>
+                        <!-- end row -->
+                      </thead>
+                      <tbody>
+                        <!-- start row -->
+                        <tr>
+                          <td><input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"><span>Implementation</span></td>
+                          <td>3 Days</td>
+                          <td>100%</td>
+                         
+                        </tr>
+                        <!-- end row -->
+                        <!-- start row -->
+                        <tr>
+                          <td><input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"><span>Design</span></td>
+                          <td>5 Days</td>
+                          <td>89%</td>
+                         
+                        </tr>
+                        <!-- end row -->
+                        <!-- start row -->
+                        <tr>
+                          <td><input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"><span>Estimate</span></td>
+                          <td>2 Days</td>
+                          <td>0%</td>
+                         
+                        </tr>
+
+                        <tr>
+                          <td><input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"><span>Permit</span></td>
+                          <td>7 Days</td>
+                          <td>0%</td>
+                         
+                        </tr>
+
+                        <tr>
+                          <td><input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"><span>Production</span></td>
+                          <td>12 Days</td>
+                          <td>0%</td>
+                         
+                        </tr>
+
+                        <tr>
+                          <td><input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"><span>Installation</span></td>
+                          <td>6 Days</td>
+                          <td>0%</td>
+                         
+                        </tr>
+
+
+                        <tr>
+                          <td><input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1"><span>Complete</span></td>
+                          <td>2 Days</td>
+                          <td>0%</td>
+                         
+                        </tr>
+                        <!-- end row -->
+                      </tbody>
+                    </table>
+                  </div>
+
+
+            
+                     
+                  <!-- Nav tabs -->
+               
+                </div>
+                <div class="col-md-8">
 
                   <div id="gantt"></div>
                   <script>
@@ -343,7 +419,7 @@
                   name: 'Production',
                   start: '2023-05-28',
                   end: '2023-06-04',
-                  progress: 100,
+                  progress: 50,
                   dependencies: 'Task 2, Task 3',
                   custom_class: 'bar-milestone' // optional
                 },
